@@ -68,13 +68,13 @@ SinOsc.ar([440, 880], 0, 0.1)  // [SinOsc.ar(440, 0, 0.1), SinOsc.ar(880, 0, 0.1
 }.plot(1);
 )
 
-
+ 
 (
 {
 	SinOsc.ar([440,660], 0.0, Line.kr(0.0, 0.4, 4.0))
 }.play;
 )
-
+ 
 // SinOsc - SineWave 를 만들어내는 UGen. freq, phase, mul, add
 // Line   - 직선을 만들어내는 UGen. start, end, dur ..... dur 동안 start 에서 end 도 연결되는 직선을 만들어내는 UGen.
 
